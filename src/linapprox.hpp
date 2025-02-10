@@ -10,7 +10,7 @@ public:
 
     struct output_t
     {
-        uint16_t hyper1;
+        uint16_t index1;
         uint16_t value;
     };
 
