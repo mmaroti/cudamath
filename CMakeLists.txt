@@ -6,3 +6,4 @@ add_executable(linapprox
   src/linapprox.cu)
 
 target_compile_features(linapprox PUBLIC cxx_std_11)
+set_target_properties(linapprox PROPERTIES CUDA_ARCHITECTURES "60;61;70;75;80;86")
